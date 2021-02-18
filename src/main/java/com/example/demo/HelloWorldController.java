@@ -13,7 +13,7 @@ public class HelloWorldController {
 
     @GetMapping
     public ResponseEntity<String> print(){
-        return new ResponseEntity<String>("Hello People", HttpStatus.OK);
+        return new ResponseEntity<String>("Hello World", HttpStatus.OK);
     }
 
     @GetMapping("{name}")
